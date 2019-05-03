@@ -1,8 +1,8 @@
 'use strict'
 
 const TestNode = require('./test-node')
-const PeerInfo = require('peer-info')
-const PeerId = require('peer-id')
+const PeerInfo = require('eth-peer-info')
+const PeerId = require('eth-peer-id')
 const eachAsync = require('async/each')
 
 exports.createNodes = function createNodes (configNodes, callback) {

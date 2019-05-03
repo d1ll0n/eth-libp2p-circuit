@@ -5,7 +5,7 @@ const setImmediate = require('async/setImmediate')
 const EE = require('events').EventEmitter
 const Connection = require('interface-connection').Connection
 const utilsFactory = require('./utils')
-const PeerInfo = require('peer-info')
+const PeerInfo = require('eth-peer-info')
 const proto = require('../protocol').CircuitRelay
 const series = require('async/series')
 

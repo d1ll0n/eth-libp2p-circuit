@@ -2,8 +2,8 @@
 
 const pull = require('pull-stream/pull')
 const debug = require('debug')
-const PeerInfo = require('peer-info')
-const PeerId = require('peer-id')
+const PeerInfo = require('eth-peer-info')
+const PeerId = require('eth-peer-id')
 const EE = require('events').EventEmitter
 const once = require('once')
 const utilsFactory = require('./utils')

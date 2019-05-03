@@ -1,7 +1,7 @@
 'use strict'
 
 const Libp2p = require('libp2p')
-const secio = require('libp2p-secio')
+const secio = require('eth-libp2p-secio')
 
 class TestNode extends Libp2p {
   constructor (peerInfo, transports, muxer, options) {

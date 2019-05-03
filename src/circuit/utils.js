@@ -1,8 +1,8 @@
 'use strict'
 
 const multiaddr = require('multiaddr')
-const PeerInfo = require('peer-info')
-const PeerId = require('peer-id')
+const PeerInfo = require('eth-peer-info')
+const PeerId = require('eth-peer-id')
 const proto = require('../protocol')
 
 module.exports = function (swarm) {

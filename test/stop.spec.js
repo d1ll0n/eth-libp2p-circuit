@@ -6,8 +6,8 @@ const nodes = require('./fixtures/nodes')
 const Connection = require('interface-connection').Connection
 const handshake = require('pull-handshake')
 const waterfall = require('async/waterfall')
-const PeerInfo = require('peer-info')
-const PeerId = require('peer-id')
+const PeerInfo = require('eth-peer-info')
+const PeerId = require('eth-peer-id')
 const StreamHandler = require('../src/circuit/stream-handler')
 const proto = require('../src/protocol')
 

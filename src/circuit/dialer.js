@@ -1,7 +1,7 @@
 'use strict'
 
 const once = require('once')
-const PeerId = require('peer-id')
+const PeerId = require('eth-peer-id')
 const waterfall = require('async/waterfall')
 const multiaddr = require('multiaddr')
 
