@@ -1,8 +1,7 @@
 {
-  "name": "libp2p-circuit",
-  "version": "0.3.6",
+  "name": "eth-libp2p-circuit",
+  "version": "0.0.1",
   "description": "JavaScript implementation of circuit/switch relaying",
-  "leadMaintainer": "Jacob Heun <jacobheun@gmail.com>",
   "main": "src/index.js",
   "files": [
     "src",
